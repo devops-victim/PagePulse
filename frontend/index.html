@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Pulse</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Page Pulse</h1>
+    <p class="subtitle">
+        Website SEO & Accessibility Auditor
+    </p>
+
+    <div class="input-group">
+        <input
+            id="urlInput"
+            type="url"
+            placeholder="https://example.com"
+        >
+
+        <button id="auditBtn">
+            Audit
+        </button>
+    </div>
+
+    <div id="loading" class="loading hidden">
+        Auditing website...
+    </div>
+
+    <div id="error" class="error hidden"></div>
+
+    <div id="results" class="results hidden">
+
+        <div class="card">
+            <span>HTTP Status</span>
+            <strong id="status"></strong>
+        </div>
+
+        <div class="card">
+            <span>Response Time</span>
+            <strong id="responseTime"></strong>
+        </div>
+
+        <div class="card">
+            <span>Title</span>
+            <strong id="title"></strong>
+        </div>
+
+        <div class="card">
+            <span>Meta Description</span>
+            <strong id="metaDescription"></strong>
+        </div>
+
+        <div class="card">
+            <span>H1 Count</span>
+            <strong id="h1Count"></strong>
+        </div>
+
+        <div class="card">
+            <span>Images Missing Alt</span>
+            <strong id="missingAlt"></strong>
+        </div>
+
+        <div class="card">
+            <span>Word Count</span>
+            <strong id="wordCount"></strong>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
