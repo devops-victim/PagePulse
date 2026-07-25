@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from schemas import AuditRequest, AuditResponse
-from services.audit import audit_website
+from app.schemas import AuditRequest, AuditResponse
+from app.services.audit import audit_website
 
 router = APIRouter(tags=["Audit"])
 
