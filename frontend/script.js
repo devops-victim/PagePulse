@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/audit";
+const API_URL = "https://pagepulse-api.onrender.com/audit";
 
 const urlInput = document.getElementById("urlInput");
 const auditBtn = document.getElementById("auditBtn");
