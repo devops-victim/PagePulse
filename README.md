@@ -203,13 +203,13 @@ The API returns meaningful error messages and appropriate HTTP status codes to a
 Backend (example):
 
 ```
-https://<backend-url>
+https://pagepulse-api-5bno.onrender.com
 ```
 
 Frontend (example):
 
 ```
-https://<frontend-url>
+https://page-pulse-delta-orpin.vercel.app
 ```
 
 Include any hosting-specific notes (environment variables for timeouts, CONCURRENCY limits, or allowed hosts) in `backend/README.md` or an `.env` file as your deployment needs grow.
